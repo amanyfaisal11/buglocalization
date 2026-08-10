@@ -1,0 +1,43 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Model checkpoints / large binaries
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.pkl
+*.pickle
+*.joblib
+
+# Datasets / source trees pulled in by the pipeline
+dataset/
+Source code/
+*.zip
+*.tar
+*.tar.gz
+*_bugs.json
+
+# Pipeline outputs
+output/
+*.log
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
